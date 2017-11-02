@@ -1,4 +1,9 @@
 <?php
+/* ********** + **********
+  This is under MIT license
+     2017 (c) KaminekLP
+   ********** + ********** */  
+
 /*  --- fileUP! main config --- 
     
     [!] All URL MUST be with http:// or https:// [!]
@@ -15,7 +20,7 @@ $homeUrl = "http://myPage.com/";
 $dTitle = "fileUP!";
 
 /* File directory. In this dir will be save all files */
-$fDir = "img/";
+$fDir = "myFiles/";
 
 
 
