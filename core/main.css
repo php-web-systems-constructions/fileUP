@@ -1,0 +1,36 @@
+body {
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.content {
+margin-left:200px;
+margin-right:200px;
+margin-top:330px;
+background-color:lightgray;
+border:gray solid 3px;
+border-radius:4px;
+padding:20px;
+}
+
+.button {
+border-radius:5px;
+background-color:MediumSpringGreen;
+border:SeaGreen solid 2px;
+padding-top:13px;
+padding-bottom:13px;
+padding-left:9px;
+padding-right:9px;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+font-size:20px;
+}
+
+.button:hover {
+background-color:DarkSeaGreen;
+cursor:pointer;
+}
+
+.text {
+opacity:0.6;
+}

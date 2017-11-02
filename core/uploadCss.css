@@ -1,0 +1,43 @@
+.ok {
+margin-left:200px;
+margin-right:200px;
+margin-top:330px;
+border:GreenYellow solid 2px;
+border-radius:5px;
+background-color:LightGreen;
+padding:20px;
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.error {
+margin-left:200px;
+margin-right:200px;
+margin-top:330px;
+border:LightCoral solid 2px;
+border-radius:5px;
+background-color:IndianRed;
+padding:20px;
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.nadpisErr {
+text-align:left;
+font-weight:bold;
+color:maroon;
+}
+
+.nadpisOk {
+text-align:left;
+font-weight:bold;
+color:OliveDrab;
+}
+
+.podChyba {
+text-align:right;
+opacity:0.4;
+background-color:lightgray;
+border-right:red solid 5px;
+padding:8px;
+}
