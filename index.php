@@ -1,4 +1,8 @@
 <?php
+/* ********** + **********
+  This is under MIT license
+     2017 (c) KaminekLP
+   ********** + ********** */ 
 /* Include config */
 include "core/config.php";
 ?>
