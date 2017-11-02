@@ -1,4 +1,9 @@
 <?php
+/* ********** + **********
+  This is under MIT license
+     2017 (c) KaminekLP
+   ********** + ********** */ 
+   
 /* Include config */
 include "core/config.php";
 ?>
@@ -45,7 +50,9 @@ if ($_FILES["fileToUpload"]["size"] > 5000000) {
 
 /* Allow certain file formats */
 if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-&& $imageFileType != "gif" ) {
+&& $imageFileType != "gif" && $imageFileType != "mp4" && $imageFileType != "avi" 
+&& $imageFileType != "txt" && $imageFileType != "zip" && $imageFileType != "rar" 
+&& $imageFileType != "tar.gz" ) {
     echo "<div class='podChyba'>" . $messageErrNoAllowedFormat . "</div>";
     $uploadOk = 0;
 }
