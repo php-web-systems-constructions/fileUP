@@ -65,4 +65,7 @@ $messageInfoChoose = "Please select a file to upload:";
 
 /* Text in button */
 $messageInfoButton = "Upload";
+
+/* Own text (eg. yours copyright) after fileUP! copyright text */
+$messageInfoOwnCopy = "&copy; yourCompanyName 2017";
 ?>
